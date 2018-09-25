@@ -7,3 +7,15 @@
 	} else {
 	console.log("The word is not a palindrome");	
 	}
+
+
+//execution by else (Why????)
+	var word = "bon";
+	var arr1 = (word.split(''));
+	var arr2 = (word.split('').reverse());
+        if (arr1==arr2)
+	{
+	console.log("The word is a palindrome");	
+	} else {
+	console.log("The word is not a palindrome");	
+	}
