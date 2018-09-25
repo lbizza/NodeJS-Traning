@@ -1,3 +1,4 @@
+//way 1
 	var word = "bob";
 	var arr1 = [word[0],word[1],word[2]];
 	var arr2 = [word[2],word[1],word[0]];
@@ -8,12 +9,13 @@
 	console.log("The word is not a palindrome");	
 	}
 
-
-//execution by else (Why????)
+//way 2
 	var word = "bon";
 	var arr1 = (word.split(''));
 	var arr2 = (word.split('').reverse());
-        if (arr1==arr2)
+	var str1 = arr1.join('');
+	var str2 = arr2.join('');
+        if (str1==str2)
 	{
 	console.log("The word is a palindrome");	
 	} else {
